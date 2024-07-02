@@ -1,0 +1,581 @@
+img {
+    max-width:100%;
+    height:auto;
+}
+
+.Shop {
+    font-size:6em;
+    text-align: center;
+    margin-bottom:100px;
+}
+
+.Sale {
+    font-size: 2em;
+    text-align:center;
+    margin-bottom:40px;
+    color:red;
+    text-decoration: overline;
+}
+
+.Potion_Header {
+    font-size:4em;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom:20px;
+    color:white;
+}
+
+.Potion_Container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.PotOne {
+    font-size:2em;
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.PotTwo {
+    font-size:2em;
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.PotThree {
+    font-size:2em;
+    grid-column: 3;
+    grid-row: 2;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.PotFour {
+    font-size:2em;
+    grid-column: 3;
+    grid-row: 2;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.PotFive {
+    grid-column: 1;
+    grid-row: 3;
+    justify-self: center;
+}
+
+.PotSix {
+    grid-column: 2;
+    grid-row: 3;
+    justify-self: center;
+}
+
+.PotSeven {
+    grid-column: 3;
+    grid-row: 3;
+    justify-self: center;
+}
+
+.PotEight {
+    grid-column: 3;
+    grid-row: 3;
+    justify-self: center;
+}
+
+.Green_Header {
+    font-size:4em;
+    text-align: center;
+    color:green;
+    text-decoration: underline;
+    margin-bottom:20px;
+    margin-top:40px;
+}
+
+.GContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.GOne {
+    font-size:2em;
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.GTwo {
+    font-size:2em;
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.GThree {
+    font-size:2em;
+    grid-column: 3;
+    grid-row: 2;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.GFour {
+    grid-column: 1;
+    grid-row: 3;
+    justify-self: center;
+}
+
+.GFive {
+    grid-column: 2;
+    grid-row: 3;
+    justify-self: center;
+}
+
+.GSix {
+    grid-column: 3;
+    grid-row: 3;
+    justify-self: center;
+}
+
+.Blue_Header {
+    font-size:4em;
+    text-align: center;
+    color:blue;
+    text-decoration: underline;
+    margin-bottom:20px;
+    margin-top:40px;
+}
+
+.BContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.BOne {
+    font-size:2em;
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.BTwo {
+    font-size:2em;
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.BThree {
+    font-size:2em;
+    grid-column: 3;
+    grid-row: 2;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.BFour {
+    grid-column: 1;
+    grid-row: 3;
+    justify-self: center;
+}
+
+.BFive {
+    grid-column: 2;
+    grid-row: 3;
+    justify-self: center;
+}
+
+.BSix {
+    grid-column: 3;
+    grid-row: 3;
+    justify-self: center;
+}
+
+.Purple_Header {
+    font-size:4em;
+    text-align: center;
+    color:purple;
+    text-decoration: underline;
+    margin-bottom:20px;
+    margin-top:40px;
+}
+
+.PContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.POne {
+    font-size:2em;
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.PTwo {
+    font-size:2em;
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.PThree {
+    font-size:2em;
+    grid-column: 3;
+    grid-row: 2;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.PFour {
+    font-size:2em;
+    grid-column: 4;
+    grid-row: 2;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.PFive {
+    grid-column: 1;
+    grid-row: 3;
+    justify-self: center;
+}
+
+.PSix {
+    grid-column: 2;
+    grid-row: 3;
+    justify-self: center;
+}
+
+.PSeven {
+    grid-column: 3;
+    grid-row: 3;
+    justify-self: center;
+}
+
+.PEight {
+    grid-column: 4;
+    grid-row: 3;
+    justify-self: center;
+}
+
+.Yellow_Header {
+    font-size:4em;
+    text-align: center;
+    color:Gold;
+    text-decoration: underline;
+    margin-bottom:20px;
+    margin-top:40px;
+}
+
+.YContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.YOne {
+    font-size:2em;
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.YTwo {
+    font-size:2em;
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.YThree {
+    font-size:2em;
+    grid-column: 3;
+    grid-row: 2;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.YFour {
+    font-size:2em;
+    grid-column: 1;
+    grid-row: 4;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.YFive {
+    font-size:2em;
+    grid-column: 2;
+    grid-row: 4;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.YSix {
+    font-size:2em;
+    grid-column: 3;
+    grid-row: 4;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.YSeven {
+    grid-column: 1;
+    grid-row: 3;
+    justify-self: center;
+}
+
+.YEight {
+    grid-column: 2;
+    grid-row: 3;
+    justify-self: center;
+}
+
+.YEight {
+    grid-column: 3;
+    grid-row: 3;
+    justify-self: center;
+}
+
+.YNine {
+    grid-column: 2;
+    grid-row: 3;
+    justify-self: center;
+}
+
+.YTen {
+    grid-column: 1;
+    grid-row: 5;
+    justify-self: center;
+}
+
+.YEleven {
+    grid-column: 2;
+    grid-row: 5;
+    justify-self: center;
+}
+
+.YTwelve {
+    grid-column: 3;
+    grid-row: 5;
+    justify-self: center;
+}
+
+.Pink_Header {
+    font-size:4em;
+    text-align: center;
+    color:Magenta;
+    text-decoration: underline;
+    margin-bottom:20px;
+    margin-top:40px;
+}
+
+.MContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.MOne {
+    font-size:2em;
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.MTwo {
+    font-size:2em;
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.MThree {
+    font-size:2em;
+    grid-column: 3;
+    grid-row: 2;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.MFour {
+    font-size:2em;
+    grid-column: 1;
+    grid-row: 4;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.MFive {
+    font-size:2em;
+    grid-column: 2;
+    grid-row: 4;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.MSix {
+    font-size:2em;
+    grid-column: 3;
+    grid-row: 4;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.MSeven {
+    grid-column: 1;
+    grid-row: 3;
+    justify-self: center;
+}
+
+.MEight {
+    grid-column: 2;
+    grid-row: 3;
+    justify-self: center;
+}
+
+.MEight {
+    grid-column: 3;
+    grid-row: 3;
+    justify-self: center;
+}
+
+.MNine {
+    grid-column: 2;
+    grid-row: 3;
+    justify-self: center;
+}
+
+.MTen {
+    grid-column: 1;
+    grid-row: 5;
+    justify-self: center;
+}
+
+.MEleven {
+    grid-column: 2;
+    grid-row: 5;
+    justify-self: center;
+}
+
+.MTwelve {
+    grid-column: 3;
+    grid-row: 5;
+    justify-self: center;
+}
+
+.Red_Header {
+    font-size:4em;
+    text-align: center;
+    color:red;
+    text-decoration: underline;
+    margin-bottom:20px;
+    margin-top:40px;
+}
+
+.RContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.ROne {
+    font-size:2em;
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.RTwo {
+    font-size:2em;
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.RThree {
+    font-size:2em;
+    grid-column: 3;
+    grid-row: 2;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.RFour {
+    font-size:2em;
+    grid-column: 1;
+    grid-row: 4;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.RFive {
+    font-size:2em;
+    grid-column: 2;
+    grid-row: 4;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.RSix {
+    font-size:2em;
+    grid-column: 3;
+    grid-row: 4;
+    justify-self: center;
+    margin-bottom:10px;
+}
+
+.RSeven {
+    grid-column: 1;
+    grid-row: 3;
+    justify-self: center;
+}
+
+.REight {
+    grid-column: 2;
+    grid-row: 3;
+    justify-self: center;
+}
+
+.REight {
+    grid-column: 3;
+    grid-row: 3;
+    justify-self: center;
+}
+
+.RNine {
+    grid-column: 2;
+    grid-row: 3;
+    justify-self: center;
+}
+
+.RTen {
+    grid-column: 1;
+    grid-row: 5;
+    justify-self: center;
+}
+
+.REleven {
+    grid-column: 2;
+    grid-row: 5;
+    justify-self: center;
+}
+
+.RTwelve {
+    grid-column: 3;
+    grid-row: 5;
+    justify-self: center;
+}
